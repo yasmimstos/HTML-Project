@@ -1,0 +1,113 @@
+/*declarando variaveis*/
+
+:root{
+
+    --font1: 'Century Gothic'; /* titulo */
+
+    --cor1:black;
+    --cor2:white;
+    --cor3:#343838; 
+    --cor4:#005f6b;
+    --cor5:#008c9e;
+    --cor6:#00b4cc;
+    --cor7:#00dffc;
+}
+/* cabeçalho pag */ 
+
+header{
+    height: 15vh;
+}
+
+#header{
+    background-color: var(--cor2);
+}
+
+#nav_topo{
+    background-color: var(--cor2);
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    padding: 15px 0px;
+}
+
+/*drop down*/
+
+nav > ul{
+    float: left;
+}
+
+nav > ul > li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li > a{
+    display: block;
+    font: normal bold 1.5vw var(--font1);
+    color: var(--cor5);
+    margin: 2px 15px;
+    padding: 15px;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav > ul > li > a:hover{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    color: var(--cor6);
+}
+
+nav > ul > li > ul{
+    display: none;
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--cor2) , var(--cor7));
+    padding: 10px;
+    border-radius:  0px 0px 10px 10px;
+    transition-duration: 1s;
+}
+
+nav > ul > li:hover ul{
+    display: block;
+    list-style: none;
+}
+
+/*meio pag*/
+
+main{
+    height: 100%;
+}
+
+.s_unica{
+    height: 100%;
+}
+
+#s_unica01{
+    background-image: linear-gradient(to bottom , var(--cor2) , var(--cor7));
+    display: flex;
+    padding: 15px;
+    margin: 20px 0px 0px 0px ;
+}
+
+.cont{
+    height: 100%;
+    width: 50%;
+    margin: 15px  0px 0px 0px;
+}
+
+#div_txt{
+    padding: 5px;
+}
+
+#div_txt > h1{
+    font: normal bold 2.5vw var(--font1);
+    text-align: left;
+    color: var(--cor4);
+    margin: 25px 10px;
+}
+
+#div_txt > p{
+    font: normal normal 1.5vw var(--font1);
+    text-align: justify;
+    color: var(--cor4);
+    margin: 10px;
+}
