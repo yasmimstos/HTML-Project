@@ -6,13 +6,13 @@
 
     --cor1:black;
     --cor2:white;
-    --cor3:#343838; 
-    --cor4:#005f6b;
-    --cor5:#008c9e;
-    --cor6:#00b4cc;
+    --cor3:#7890a8; 
+    --cor4:#304878;
+    --cor5:#181848;
+    --cor6:#f0a818;
     --cor7:#00dffc;
 }
-/* cabeçalho pag */ 
+/* cabeçalho */ 
 
 header{
     height: 15vh;
@@ -44,7 +44,7 @@ nav > ul > li{
 
 nav > ul > li > a{
     display: block;
-    font: normal bold 1.5vw var(--font1);
+    font: normal bold 1.3vw var(--font1);
     color: var(--cor5);
     margin: 2px 15px;
     padding: 15px;
@@ -71,7 +71,7 @@ nav > ul > li:hover ul{
     list-style: none;
 }
 
-/*meio pag*/
+/*meio*/
 
 main{
     height: 100%;
@@ -82,7 +82,7 @@ main{
 }
 
 #s_unica01{
-    background-image: linear-gradient(to bottom , var(--cor2) , var(--cor7));
+    background-color: var(--cor4);
     display: flex;
     padding: 15px;
     margin: 20px 0px 0px 0px ;
@@ -101,13 +101,13 @@ main{
 #div_txt > h1{
     font: normal bold 2.5vw var(--font1);
     text-align: left;
-    color: var(--cor4);
+    color: var(--cor3);
     margin: 25px 10px;
 }
 
 #div_txt > p{
     font: normal normal 1.5vw var(--font1);
     text-align: justify;
-    color: var(--cor4);
+    color: var(--cor3);
     margin: 10px;
 }
