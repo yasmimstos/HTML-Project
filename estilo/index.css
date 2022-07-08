@@ -75,39 +75,78 @@ nav > ul > li:hover ul{
 
 main{
     height: 100%;
+    width: 100%;
+    background-color: var(--cor4)
 }
 
-.s_unica{
+.s_first{
     height: 100%;
 }
 
-#s_unica01{
+#s_first{
     background-color: var(--cor4);
     display: flex;
     padding: 15px;
     margin: 20px 0px 0px 0px ;
 }
 
-.cont{
+.div_01{
     height: 100%;
-    width: 50%;
+    width: 100%;
     margin: 15px  0px 0px 0px;
 }
 
-#div_txt{
+#div_txt1{
     padding: 5px;
 }
 
-#div_txt > h1{
+#div_txt1 > h1{
     font: normal bold 2.5vw var(--font1);
     text-align: left;
     color: var(--cor3);
     margin: 25px 10px;
 }
 
-#div_txt > p{
+#div_txt1 > p{
     font: normal normal 1.5vw var(--font1);
     text-align: justify;
     color: var(--cor3);
-    margin: 10px;
+    margin-left: 0px;
+    margin-right: 800px;
+}
+
+.s_second{
+    height: 100%;
+}
+
+#s_second{
+    display: flex;
+    padding: 15px;
+}
+
+.div_02{
+    height: 100%;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+
+#div_txt2{
+    padding: 5px;
+}
+
+#div_txt2 > h1{
+    font: normal bold 2.5vw var(--font1);
+    text-align: justify;
+    color: var(--cor3);
+    margin-left: 1520px;
+    margin-right: 0px;
+}
+
+#div_txt2 > p{
+    font: normal normal 1.5vw var(--font1);
+    text-align: justify;
+    color: var(--cor3);
+    margin-left: 800px;
+    margin-right: 0px;
+
 }
